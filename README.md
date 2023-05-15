@@ -16,11 +16,16 @@
     + -nostdlib (Linker)
     + -mwindows (Linker): Obliga a GCC a construir una aplicación con interfaz gráfico GUI para Windows.
     + -fexpensive-optimizations
-    + O1, O2, O3: optimizaciones
+    + -O1, -O2, -O3: optimizaciones
 
 7.2 Poner en uso lo encontrado en el punto anterior
+    TODO
 
 7.3 Secuencia de pasos
+    1. Preprocesar
+        b.para este paso se utilizó "gcc -E hello2.c -o hello2.i". En el archivo hello2.i se puede visualizar como esta declarada la libreria stdio y luego el código que esta escrito en hello2.c pero reemplazando el comentario por un espacio.
+        d. TODO: Investigar e indicar la semántica de la primera línea. *************************
+        e. 
 
 7.4 Restricciones
 
